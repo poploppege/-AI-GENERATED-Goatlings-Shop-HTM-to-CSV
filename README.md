@@ -38,11 +38,14 @@ How to Use
 
 1.  **Install Python:** If you don't already have it, download and install Python from [python.org](https://www.python.org/downloads/).
     
-2.  pip install beautifulsoup4
+2.  **Install Required Library:** Open your computer's command prompt (or Terminal) and run the following command to install the necessary library (copy and paste, then press enter):
     
-3.  **Download the Script:** Download the goatlings\_parser.py file from this repository and place it in a folder on your computer.
+
+pip install beautifulsoup4
+
+1.  **Download the Script:** From the main page of this repository, click on the goatlings-shop.py file. On the file page, look for the **"Raw"** button in the top-right corner. **Right-click** the "Raw" button and select **"Save link as..."**. Save the file in an easy-to-find folder on your computer.
     
-4.  **Save Your Shop Page:**
+2.  **Save Your Shop Page:**
     
     *   Go to your shop's inventory page on Goatlings.
         
@@ -50,9 +53,12 @@ How to Use
         
     *   Save the file as shop.htm in the **exact same folder** where you put the Python script.
         
-5.  python goatlings\_parser.py
-    
-6.  **Find Your CSV:** The script will ask you to enter a folder path. After you provide one, it will create a shop.csv file in that location. If you leave the path blank and press Enter, the file will be saved in the same folder as the script.
+    *   Open your command prompt, navigate to the folder where your files are saved, and run the script with this command (copy and paste, then press enter):
+        
+
+python goatlings-shop.py
+
+1.  **Find Your CSV:** The script will ask you to enter a folder path. After you provide one, it will create a shop.csv file in that location. If you leave the path blank and press Enter, the file will be saved in the same folder as the script.
     
 
 How to Use the CSV Data (Importing into Spreadsheets)
